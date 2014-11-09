@@ -1,0 +1,16 @@
+PODS:
+  - YMSymbolFont (0.1.0):
+    - YMSymbolFont/Core
+  - YMSymbolFont/Core (0.1.0)
+
+DEPENDENCIES:
+  - YMSymbolFont (from `../`)
+
+EXTERNAL SOURCES:
+  YMSymbolFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YMSymbolFont: e905e619873fc4d1df5d185f24913c4ac21bcf42
+
+COCOAPODS: 0.34.4
