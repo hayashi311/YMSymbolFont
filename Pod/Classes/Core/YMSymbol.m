@@ -6,6 +6,16 @@
 #import "YMSymbol.h"
 
 const struct YMSymbol YMSymbol = {
-        .Setting = @"setting"
+        .Cancel = @"cancel",
+        .Checkmark = @"checkmark",
+        .Clock = @"clock",
+        .Delete = @"delete",
+        .Disable = @"disable",
+        .Find = @"find",
+        .Graph = @"graph",
+        .Minus = @"minus",
+        .Plus = @"plus",
+        .Setting = @"setting",
+        .Sync = @"sync",
+        .Task = @"task",
 };
-
