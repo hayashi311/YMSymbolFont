@@ -3,14 +3,14 @@
 //  Copyright (c) 2014 PROJECT_OWNER. All rights reserved.
 //
 
-#import "UIImage+CPDSymbolFont.h"
-#import "UIFont+CPDSymbolFont.h"
+#import "UIImage+YMSymbolFont.h"
+#import "UIFont+YMSymbolFont.h"
 
-@implementation UIImage (CPDSymbolFont)
+@implementation UIImage (YMSymbolFont)
 
-+ (instancetype)cpd_imageWithSymbolName:(NSString *)symbolName size:(CGFloat)size color:(UIColor *)color {
++ (instancetype)ym_imageWithSymbolName:(NSString *)symbolName size:(CGFloat)size color:(UIColor *)color {
 
-    UIFont *font = [UIFont cpd_symbolFontWithSize:size];
+    UIFont *font = [UIFont ym_symbolFontWithSize:size];
 
     NSDictionary *attributes = @{
             NSFontAttributeName : font,
@@ -35,8 +35,8 @@
     return image;
 }
 
-+ (instancetype)cpd_templateImageWithSymbolName:(NSString *)symbolName size:(CGFloat)size {
-    UIImage *image = [self cpd_imageWithSymbolName:symbolName size:size color:[UIColor blackColor]];
++ (instancetype)ym_templateImageWithSymbolName:(NSString *)symbolName size:(CGFloat)size {
+    UIImage *image = [self ym_imageWithSymbolName:symbolName size:size color:[UIColor blackColor]];
     return [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
 }
 

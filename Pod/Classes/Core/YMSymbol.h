@@ -5,8 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
-extern const struct CPDSymbol {
+extern const struct YMSymbol {
     __unsafe_unretained NSString *const Setting;
-} CPDSymbol;
+} YMSymbol;
 
 

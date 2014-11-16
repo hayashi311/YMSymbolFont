@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CC4558A6AE3299F222BED00 /* libPods-YMSymbolFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E018E90255D69264F9FB22 /* libPods-YMSymbolFont.a */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		B8594ADFD3984692C07D4041 /* libPods-YMSymbolFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0456E517FF8C6702E493408 /* libPods-YMSymbolFont.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25E018E90255D69264F9FB22 /* libPods-YMSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D996BD990EFE5F35EC9A79 /* Pods-YMSymbolFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSymbolFont.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMSymbolFont/Pods-YMSymbolFont.debug.xcconfig"; sourceTree = "<group>"; };
+		0372A4102C24076598827A4E /* Pods-YMSymbolFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSymbolFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMSymbolFont/Pods-YMSymbolFont.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YMSymbolFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMSymbolFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* YMSymbolFont.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMSymbolFont.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = YMSymbolFont.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		865546DA79B6FCDE3B416E83 /* YMSymbolFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMSymbolFont.podspec; path = ../YMSymbolFont.podspec; sourceTree = "<group>"; };
-		896EF58DE8B6C7B09F347E39 /* Pods-YMSymbolFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSymbolFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMSymbolFont/Pods-YMSymbolFont.release.xcconfig"; sourceTree = "<group>"; };
-		EA365947CC2ED4DEF0BE775A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF8060E9EAA4FE6AEA350FF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0456E517FF8C6702E493408 /* libPods-YMSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE21E1C5DAA191FB6C018C3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C0965799F8A777F27A07BC28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3224E826D7786603C3CE26E /* Pods-YMSymbolFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSymbolFont.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMSymbolFont/Pods-YMSymbolFont.debug.xcconfig"; sourceTree = "<group>"; };
+		FDFDD2D7013480C889D973C4 /* YMSymbolFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMSymbolFont.podspec; path = ../YMSymbolFont.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +42,22 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1CC4558A6AE3299F222BED00 /* libPods-YMSymbolFont.a in Frameworks */,
+				B8594ADFD3984692C07D4041 /* libPods-YMSymbolFont.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4356C1E8C970701F219BDAA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3224E826D7786603C3CE26E /* Pods-YMSymbolFont.debug.xcconfig */,
+				0372A4102C24076598827A4E /* Pods-YMSymbolFont.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +65,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				CEC1B7ED65DF5232CC771C18 /* Pods */,
+				4356C1E8C970701F219BDAA9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* YMSymbolFont.app */,
-				6003F5AE195388D20070C39A /* YMSymbolFont.xctest */,
+				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,7 +85,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				25E018E90255D69264F9FB22 /* libPods-YMSymbolFont.a */,
+				A0456E517FF8C6702E493408 /* libPods-YMSymbolFont.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,20 +112,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				865546DA79B6FCDE3B416E83 /* YMSymbolFont.podspec */,
-				EA365947CC2ED4DEF0BE775A /* README.md */,
-				FF8060E9EAA4FE6AEA350FF6 /* LICENSE */,
+				FDFDD2D7013480C889D973C4 /* YMSymbolFont.podspec */,
+				AE21E1C5DAA191FB6C018C3E /* README.md */,
+				C0965799F8A777F27A07BC28 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		CEC1B7ED65DF5232CC771C18 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				44D996BD990EFE5F35EC9A79 /* Pods-YMSymbolFont.debug.xcconfig */,
-				896EF58DE8B6C7B09F347E39 /* Pods-YMSymbolFont.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,11 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YMSymbolFont" */;
 			buildPhases = (
-				67D4CF0E18085363ECA6ADE4 /* Check Pods Manifest.lock */,
+				CB2C0918E8C73CCF7E8CF8BE /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9FF5959874EE9A269E9095C2 /* Copy Pods Resources */,
+				4B509AC0E303870A57850D0C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,7 +138,7 @@
 			);
 			name = YMSymbolFont;
 			productName = YMSymbolFontTests;
-			productReference = 6003F5AE195388D20070C39A /* YMSymbolFont.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -186,22 +186,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67D4CF0E18085363ECA6ADE4 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9FF5959874EE9A269E9095C2 /* Copy Pods Resources */ = {
+		4B509AC0E303870A57850D0C /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,6 +199,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMSymbolFont/Pods-YMSymbolFont-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB2C0918E8C73CCF7E8CF8BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -315,7 +315,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44D996BD990EFE5F35EC9A79 /* Pods-YMSymbolFont.debug.xcconfig */;
+			baseConfigurationReference = D3224E826D7786603C3CE26E /* Pods-YMSymbolFont.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -337,7 +337,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 896EF58DE8B6C7B09F347E39 /* Pods-YMSymbolFont.release.xcconfig */;
+			baseConfigurationReference = 0372A4102C24076598827A4E /* Pods-YMSymbolFont.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

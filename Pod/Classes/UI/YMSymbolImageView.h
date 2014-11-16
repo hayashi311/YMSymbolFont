@@ -6,7 +6,7 @@
 #import <UIKit/UIKit.h>
 
 IB_DESIGNABLE
-@interface CPDSymbolImageView : UIImageView
+@interface YMSymbolImageView : UIImageView
 
 @property (nonatomic) IBInspectable NSString *symbolName;
 

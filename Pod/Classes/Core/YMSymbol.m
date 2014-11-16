@@ -3,9 +3,9 @@
 //  Copyright (c) 2014 PROJECT_OWNER. All rights reserved.
 //
 
-#import "CPDSymbol.h"
+#import "YMSymbol.h"
 
-const struct CPDSymbol CPDSymbol = {
+const struct YMSymbol YMSymbol = {
         .Setting = @"setting"
 };
 

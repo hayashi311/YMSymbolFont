@@ -3,11 +3,11 @@
 //  Copyright (c) 2014 PROJECT_OWNER. All rights reserved.
 //
 
-#import "CPDSymbolImageView.h"
-#import "UIImage+CPDSymbolFont.h"
+#import "YMSymbolImageView.h"
+#import "UIImage+YMSymbolFont.h"
 
 
-@implementation CPDSymbolImageView {
+@implementation YMSymbolImageView {
 
 }
 
@@ -26,7 +26,7 @@
     CGFloat imageSize = self.image ? self.image.size.width : -1;
     BOOL shouldUpdateImage = self.symbolName && (size != 0) && (size != imageSize);
     if (shouldUpdateImage){
-        self.image = [UIImage cpd_templateImageWithSymbolName:self.symbolName size:size];
+        self.image = [UIImage ym_templateImageWithSymbolName:self.symbolName size:size];
     }
 }
 

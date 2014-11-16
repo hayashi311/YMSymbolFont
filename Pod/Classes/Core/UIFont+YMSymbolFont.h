@@ -5,10 +5,10 @@
 
 #import <UIKit/UIKit.h>
 
-extern NSString *const kHRSymbolFontFamilyName;
+extern NSString *const kYMSymbolFontFamilyName;
 
-@interface UIFont (CPDSymbolFont)
+@interface UIFont (YMSymbolFont)
 
-+ (instancetype)cpd_symbolFontWithSize:(CGFloat)size;
++ (instancetype)ym_symbolFontWithSize:(CGFloat)size;
 
 @end
