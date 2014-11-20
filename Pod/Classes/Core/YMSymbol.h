@@ -12,6 +12,7 @@ __unsafe_unretained NSString *const Cancel;
     __unsafe_unretained NSString *const Find;
     __unsafe_unretained NSString *const Graph;
     __unsafe_unretained NSString *const Minus;
+    __unsafe_unretained NSString *const Plus;
     __unsafe_unretained NSString *const Setting;
     __unsafe_unretained NSString *const Sync;
     __unsafe_unretained NSString *const Task;
