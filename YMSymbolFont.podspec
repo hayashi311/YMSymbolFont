@@ -27,9 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.resource_bundles = {
-    'YMSymbolFont' => ['Pod/Assets/*.ttf']
-  }
+  s.resources = ['Pod/Assets/*.ttf']
 
   s.subspec 'Core' do |cs|
      cs.source_files = 'Pod/Classes/Core'
