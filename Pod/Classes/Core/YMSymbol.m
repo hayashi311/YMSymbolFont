@@ -11,4 +11,5 @@ const struct YMSymbol YMSymbol = {
         .Find = @"find",
         .Graph = @"graph",
         .Minus = @"minus",
+        .Setting = @"setting",
 };
