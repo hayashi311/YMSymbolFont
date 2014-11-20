@@ -8,6 +8,7 @@
 extern const struct YMSymbol {
 __unsafe_unretained NSString *const Cancel;
     __unsafe_unretained NSString *const Checkmark;
+    __unsafe_unretained NSString *const Clock;
     __unsafe_unretained NSString *const Delete;
     __unsafe_unretained NSString *const Find;
     __unsafe_unretained NSString *const Graph;
