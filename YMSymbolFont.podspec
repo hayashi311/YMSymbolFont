@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.resource_bundles = {
-    'YMSymbolFont' => ['Pod/Assets/*.png']
+    'YMSymbolFont' => ['Pod/Assets/*.ttf']
   }
 
   s.subspec 'Core' do |cs|
