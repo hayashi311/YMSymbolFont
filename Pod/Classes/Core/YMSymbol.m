@@ -11,7 +11,6 @@ const struct YMSymbol YMSymbol = {
         .Clock = @"clock",
         .Delete = @"delete",
         .Disable = @"disable",
-        .Gaugage = @"gaugage",
         .Graph = @"graph",
         .Idea = @"Idea",
         .Minus = @"minus",
