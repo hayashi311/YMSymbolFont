@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "YMSymbolFont"
-  s.version          = "0.14.0"
+  s.version          = "0.15.0"
   s.summary          = "A short description of YMSymbolFont."
   s.description      = <<-DESC
                        An optional longer description of YMSymbolFont
