@@ -18,5 +18,6 @@ const struct YMSymbol YMSymbol = {
         .Minus = @"minus",
         .Setting = @"setting",
         .Sync = @"sync",
+        .Tactic = @"tactic",
         .Task = @"task",
 };
