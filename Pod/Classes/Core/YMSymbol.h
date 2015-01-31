@@ -15,6 +15,7 @@ __unsafe_unretained NSString *const Idea;
     __unsafe_unretained NSString *const Gaugage;
     __unsafe_unretained NSString *const Graph;
     __unsafe_unretained NSString *const Knight;
+    __unsafe_unretained NSString *const Loud;
     __unsafe_unretained NSString *const Minus;
     __unsafe_unretained NSString *const Setting;
     __unsafe_unretained NSString *const Sync;

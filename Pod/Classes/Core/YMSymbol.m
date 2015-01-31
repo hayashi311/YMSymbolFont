@@ -15,6 +15,7 @@ const struct YMSymbol YMSymbol = {
         .Gaugage = @"gaugage",
         .Graph = @"graph",
         .Knight = @"knight",
+        .Loud = @"loud",
         .Minus = @"minus",
         .Setting = @"setting",
         .Sync = @"sync",
