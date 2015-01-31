@@ -7,7 +7,6 @@
 
 extern const struct YMSymbol {
 __unsafe_unretained NSString *const Cancel;
-    __unsafe_unretained NSString *const Clock;
     __unsafe_unretained NSString *const Delete;
     __unsafe_unretained NSString *const Disable;
     __unsafe_unretained NSString *const Gaugage;

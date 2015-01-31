@@ -7,7 +7,6 @@
 
 const struct YMSymbol YMSymbol = {
         .Cancel = @"cancel",
-        .Clock = @"clock",
         .Delete = @"delete",
         .Disable = @"disable",
         .Gaugage = @"gaugage",
