@@ -7,11 +7,10 @@
 
 const struct YMSymbol YMSymbol = {
         .Idea = @"Idea",
-        .Cancel = @"cancel",
+        .Apple = @"apple",
         .Clef = @"clef",
-        .Gaugage = @"gaugage",
+        .Dry = @"dry",
         .Knight = @"knight",
-        .Setting = @"setting",
         .Sync = @"sync",
         .Task = @"task",
 };
